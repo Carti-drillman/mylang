@@ -1,0 +1,8 @@
+MOV num1 5          ; Set num1 to 5
+MOV num2 10         ; Set num2 to 10
+ADD num1 3          ; Add 3 to num1 (num1 = 5 + 3)
+SUB num2 4          ; Subtract 4 from num2 (num2 = 10 - 4)
+MUL num1 2          ; Multiply num1 by 2 (num1 = 8 * 2)
+DIV num2 2          ; Divide num2 by 2 (num2 = 6 / 2)
+PRINT num1          ; Print num1 (result: 16)
+PRINT num2          ; Print num2 (result: 3)

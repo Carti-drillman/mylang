@@ -1,0 +1,9 @@
+MOV x 10         ; Set variable x to 10
+MOV y 20         ; Set variable y to 20
+ADD x 5          ; Add 5 to x (x becomes 15)
+SUB y 10         ; Subtract 10 from y (y becomes 10)
+MUL x 2          ; Multiply x by 2 (x becomes 30)
+DIV y 2          ; Divide y by 2 (y becomes 5)
+MOD x 7          ; x mod 7 (x becomes 2)
+PRINT x          ; Print value of x (output: 2)
+PRINT y          ; Print value of y (output: 5)

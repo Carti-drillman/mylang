@@ -1,0 +1,4 @@
+MOV msg "Hello, world!"
+MOV msg1 "Goodbye, world!"
+PRINT msg
+PRINT msg1
