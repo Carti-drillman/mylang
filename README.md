@@ -14,7 +14,7 @@ MyLang is a simple, custom programming language and interpreter written in C. It
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/mylang.git
+    https://github.com/Carti-drillman/mylang.git
     cd mylang
     ```
 
