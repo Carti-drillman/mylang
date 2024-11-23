@@ -30,7 +30,7 @@ MyLang is a simple, custom programming language and interpreter written in C. It
 
 ## Example Program (Assembly-like)
 
-Here is an example of a simple program in assembly-like pseudocode:
+Here is an example of a simple program in mylang:
 
 ```assembly
 MOV R1, 5          ; Set R1 to 5
