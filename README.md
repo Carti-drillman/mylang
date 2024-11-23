@@ -28,16 +28,16 @@ MyLang is a simple, custom programming language and interpreter written in C. It
     ./mylang examples/hello.mylang
     ```
 
-## Example Program
+## Example Program (Assembly-like)
 
-Here is an example of a simple program in `mylang`:
+Here is an example of a simple program in assembly-like pseudocode:
 
-```plaintext
-MOV num1 5          ; Set num1 to 5
-MOV num2 10         ; Set num2 to 10
-ADD num1 3          ; Add 3 to num1 (num1 = 5 + 3)
-SUB num2 4          ; Subtract 4 from num2 (num2 = 10 - 4)
-MUL num1 2          ; Multiply num1 by 2 (num1 = 8 * 2)
-DIV num2 2          ; Divide num2 by 2 (num2 = 6 / 2)
-PRINT num1          ; Print num1 (result: 16)
-PRINT num2          ; Print num2 (result: 3)
+```assembly
+MOV R1, 5          ; Set R1 to 5
+MOV R2, 10         ; Set R2 to 10
+ADD R1, 3          ; Add 3 to R1 (R1 = 5 + 3)
+SUB R2, 4          ; Subtract 4 from R2 (R2 = 10 - 4)
+MUL R1, 2          ; Multiply R1 by 2 (R1 = 8 * 2)
+DIV R2, 2          ; Divide R2 by 2 (R2 = 6 / 2)
+PRINT R1           ; Print R1 (result: 16)
+PRINT R2           ; Print R2 (result: 3)
